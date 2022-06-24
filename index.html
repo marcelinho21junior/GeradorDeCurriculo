@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating PDF from HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js" ></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="whatToPrint" class="whatToPrint">
+        <div class="container m-auto">
+            <div class="row first">
+                <div class="col-md-4 firstItens">
+                    <div>
+                        <span>Telefone</span>
+                        <p>33333333</p>
+                    </div>
+                    <div>
+                        <span>Endereço</span>
+                        <p>ffffffffffffffffff,n456,centro</p>
+                    </div>
+                    <div>
+                        <span>Email</span>
+                        <p>dnc@group.com</p>
+                    </div>
+                    <div>
+                        <span>Linkedin</span>
+                        <p>dnc.linkedin.com</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 firstItens">
+                    <div>
+                        <h1>Marcelo Junior</h1>
+                        <p>Sou de Lorena e estudante de analise e desenvolvimento de sistemas,Responsável por cargo direcionado a ministração de aulas nas áreas de programação (banco de dados mySql), informática (pacote office) e administração de empresas. Responsável por ati</p>
+                    </div>
+                    <div>
+                        <span>OBJETIVO:</span>
+                        <p>
+                            Atuar como Analista de Sistemas ou serviços administrativos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>EXPERIENCIA</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container ">
+            <div class="row second">
+                <div class="col-md-2 secondItens">
+                    <div>
+                        <span>Back End dnc group 01/2022 - 01/2222</span>
+                    </div>
+                    <div>
+                        <span>Back End dnc group 01/2022 - 01/2222</span>
+                    </div>
+                    <div>
+                        <span>Back End dnc group 01/2022 - 01/2222</span>
+                    </div>
+                    <div>
+                        <span>Back End dnc group 01/2022 - 01/2222</span>
+                    </div>
+                </div>
+                <div class="col-md-10 secondItens">
+                    <div>
+                        Responsável por cargo direcionado a ministração de aulas nas áreas de programação (banco de dados mySql), informática (pacote office) e administração de empresas
+                    </div>
+                    <div>
+                        Responsável por cargo direcionado a ministração de aulas nas áreas de programação (banco de dados mySql), informática (pacote office) e administração de empresas
+                    </div>
+                    <div>
+                        Responsável por cargo direcionado a ministração de aulas nas áreas de programação (banco de dados mySql), informática (pacote office) e administração de empresas
+                    </div>
+                    <div>
+                        Responsável por cargo direcionado a ministração de aulas nas áreas de programação (banco de dados mySql), informática (pacote office) e administração de empresas
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>FORMAÇÃO</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row thirth">
+                <div class="col-md-2 thirthItens">
+                    <div>
+                        <span>fatec guaratingueta</span>
+                    </div>
+                    <div>
+                        <span>fatec guaratingueta</span>
+                    </div>
+                    <div>
+                        <span>fatec guaratingueta</span>
+                    </div>
+                </div>
+                <div class="col-md-10 thirthItens">
+                    <div>
+                        Responsável por cargo direcionado a ministração de aulas nas áreas de programação (banco de dados mySql), informática (pacote office) e administração de empresas
+                    </div>
+                    <div>
+                        Responsável por cargo direcionado a ministração de aulas nas áreas de programação (banco de dados mySql), informática (pacote office) e administração de empresas
+                    </div>
+                    <div>
+                        Responsável por cargo direcionado a ministração de aulas nas áreas de programação (banco de dados mySql), informática (pacote office) e administração de empresas
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h1>IDIOMA</h1>
+                </div>
+                <div class="col-8">
+                    <h1>PROJETOS EXTENSÕES</h1>
+                </div>
+            </div>
+
+            <div class="row four">
+                <div class="col-4 fourItens">
+                    <div>
+                        <p>Ingles</p>
+                    </div>
+                    <div>
+                        <p>Espanhol</p>
+                    </div>
+                    <div>
+                        <p>Italiano</p>
+                    </div>
+                </div>
+                <div class="col-8 fourItens">
+                    <div>
+                        <p>Basf:sistema pra basf (01/1111 - 01/1111)</p>
+                    </div>
+                    <div>
+                        <p>Basf:sistema pra basf (01/1111 - 01/1111)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h1>HABILIDADES</h1>
+                </div>
+                <div class="col-8">
+                    <h1>TREINAMENTOS</h1>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-4">
+                    <div>
+                        <p>javascript</p>
+                    </div>
+                    <div>
+                        <p>jAVA</p>
+                    </div>
+                    <div>
+                        <p>html</p>
+                    </div>
+                    <div>
+                        <p>css</p>
+                    </div>
+                    <div>
+                        <p>Bootstrap</p>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div>
+                        <p>Curso de php (60h) - dnc treinamentos</p>
+                    </div>
+                    <div>
+                        <p>Curso de php (60h) - dnc treinamentos</p>
+                    </div>
+                    <div>
+                        <p>Curso de php (60h) - dnc treinamentos</p>
+                    </div>
+                    <div>
+                        <p>Curso de php (60h) - dnc treinamentos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--<img src="https://th.bing.com/th/id/OIP.wdkLi0wAUuLf5gdNFincPwHaEd?pid=ImgDet&rs=1"/>-->
+
+        <div class="btnPdf">
+            <a href="javascript:generatePDF()" id="downloadButton">Click to download</a>
+        </div>    
+    </div>
+
+    <script>
+        async function generatePDF() {
+            document.getElementById("downloadButton").innerHTML = "Currently downloading, please wait";
+
+            //Downloading
+            var downloading = document.getElementById("whatToPrint");
+            var doc = new jsPDF('l', 'pt');
+
+            await html2canvas(downloading, {
+                //allowTaint: true,
+                //useCORS: true,
+                width: 1400,
+            }).then((canvas) => {
+                //Canvas (convert to PNG)
+                doc.addImage(canvas.toDataURL("image/png"), 'PNG', 5, 5, 820, 580);
+            })
+
+            doc.save("Document.pdf");
+
+            //End of downloading
+
+            document.getElementById("downloadButton").innerHTML = "Click to download";
+        }
+    </script>
+</body>
+</html>
+
+<!--
+
+HTML + CSS -> PNG (html2canvas)
+PNG -> Add to PDF (jsPDF)
+Download PDF (jsPDF)
+
+-->
